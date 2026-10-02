@@ -43,6 +43,10 @@ main { display: grid; grid-template-columns: 245px minmax(360px, 1fr) 6px var(--
 aside { padding: 14px; display: flex; flex-direction: column; gap: 9px; overflow: auto; border-right: 1px solid var(--separator); }
 h2 { font-size: 13px; margin: 8px 0; color: var(--content-tertiary); }
 #files { flex: 1; min-height: 180px; width: 100%; }
+.remote-file-search { display: flex; align-items: center; gap: 9px; width: 100%; padding: 9px 10px; text-align: left; }
+.remote-file-search .toolbar-icon { flex: 0 0 auto; color: var(--accent); }
+.remote-file-search span { display: grid; gap: 2px; min-width: 0; }
+.remote-file-search small { font-weight: 400; }
 #screenSearchForm { display: flex; gap: 6px; }
 #screenTextSearch { min-width: 0; width: 100%; }
 #screenSearchErrorList { white-space: pre-wrap; overflow-wrap: anywhere; }
